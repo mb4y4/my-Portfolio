@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desktop with books and laptop.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Introducing 'My Mystic Wheels' - Your Key to Unveiling Automotive Dreams 🚗🔮",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Introducing a revolutionary car leasing website, that redefines the way you access the open road. Imagine a world where finding and leasing your dream car is as easy as a few clicks. That's precisely what our project is all about.",
+    url: "https://my-mystic-wheel.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "gMyGames: Where Gaming Meets Seamless Discovery 🕹️",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Step into the immersive world of 'gMyGames', your ultimate portal to explore the vast galaxy of video games. Powered by React, Vite, and dressed in the sleek design of Tailwind CSS, this project is not just another gaming website; it's an odyssey of discovery and adventure.",
+    url: "https://g-my-games.vercel.app/",
   },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  // {
+  //   title: "My Resume Site",
+  //   description:
+  //     "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+  //   url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+  // },
+  // {
+  //   title: "GitHub Codespaces and github.dev",
+  //   description:
+  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  // },
 ];
 
 const Portfolio = () => {
