@@ -42,18 +42,18 @@ const projectList = [
       "Step into the immersive world of 'gMyGames', your ultimate portal to explore the vast galaxy of video games. Powered by React, Vite, and dressed in the sleek design of Tailwind CSS, this project is not just another gaming website; it's an odyssey of discovery and adventure.",
     url: "https://g-my-games.vercel.app/",
   },
-  // {
-  //   title: "My Resume Site",
-  //   description:
-  //     "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-  //   url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  // },
-  // {
-  //   title: "GitHub Codespaces and github.dev",
-  //   description:
-  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  // },
+  {
+    title: "Crafting Careers: My Resume Site, Hosted with Versel 🚀",
+    description:
+      "Welcome to my digital professional hub, the culmination of my dedication to both web development and career advancement. This site is a testament to my skills as a developer, and a showcase of my professional experience and accomplishments.",
+    url: "https://my-portfolio-kappa-blond.vercel.app/",
+  },
+  {
+    title: "🐍 Python Odyssey: A Weekly Journey into Code's Uncharted Territory 🌟",
+    description:
+      "Welcome to my weekly Python adventures, where I embark on a captivating voyage of learning, problem-solving, and mastery in the world of code. In this ever-evolving odyssey, I tackle a diverse array of projects and challenges, each carefully curated to expand my Python expertise.",
+    url: "https://github.com/mb4y4/Python_Weekly.git",
+  },
 ];
 
 const Portfolio = () => {
