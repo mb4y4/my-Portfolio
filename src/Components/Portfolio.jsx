@@ -46,7 +46,7 @@ const projectList = [
     title: "ThinkTrack, my Django-based Note Taker app, seamlessly managing thoughts and ideas 🚀",
     description:
       "ThinkTrack provides an intuitive platform for efficient note-taking, making organization and productivity a breeze.",
-    url: "https://github.com/mb4y4/note_taker.git",
+    url: "https://note-taker-n2se.onrender.com/",
   },
   {
     title: "🐍 Python Odyssey: A Weekly Journey into Code's Uncharted Territory 🌟",
@@ -60,21 +60,34 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
-        <div className="container">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          paddingTop: "2rem",
+        }}
+      >
+        <img
+          src={image}
+          style={{ width: "90%", maxWidth: "400px", marginBottom: "1rem" }} // Adjust image width and max width for responsiveness
+          alt={imageAltText}
+        />
+        <div className="container" style={{ maxWidth: "90%" }}>
+          {" "}
+          {/* Adjust container width for responsiveness */}
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
+            <div className="box" key={project.title} style={{ marginBottom: "1rem" }}>
+              {" "}
+              {/* Add margin bottom for spacing */}
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ marginBottom: "0.5rem" }}>{project.title}</h3>{" "}
+                {/* Add margin bottom for spacing */}
               </a>
-              <p className="small">{project.description}</p>
+              <p className="small" style={{ margin: "0" }}>
+                {project.description}
+              </p>{" "}
+              {/* Remove margin for spacing */}
             </div>
           ))}
         </div>
