@@ -66,7 +66,7 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            columns: 1,
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
