@@ -43,10 +43,10 @@ const projectList = [
     url: "https://g-my-games.vercel.app/",
   },
   {
-    title: "Crafting Careers: My Resume Site, Hosted with Versel 🚀",
+    title: "ThinkTrack, my Django-based Note Taker app, seamlessly managing thoughts and ideas 🚀",
     description:
-      "Welcome to my digital professional hub, the culmination of my dedication to both web development and career advancement. This site is a testament to my skills as a developer, and a showcase of my professional experience and accomplishments.",
-    url: "https://my-portfolio-kappa-blond.vercel.app/",
+      "ThinkTrack provides an intuitive platform for efficient note-taking, making organization and productivity a breeze.",
+    url: "https://github.com/mb4y4/note_taker.git",
   },
   {
     title: "🐍 Python Odyssey: A Weekly Journey into Code's Uncharted Territory 🌟",
